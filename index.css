@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-weight: 800;
+    font-size: 22px;
+    margin: 0px auto 0px auto;
+    padding: 50px 0px 20px 0px;
+    color: white;
+}
+#inputArea {
+    width: 550px;
+    margin: auto;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    margin: 0px auto 0px auto;
+    color: white;
+}
+#inputNo {
+    font-size: 98px;
+    margin-top: 10px;
+    font-weight: 800;
+    color: white;
+    padding-bottom: 30px;
+}
+.bolder {
+    font-size: 14px;
+}
+
+#conversionArea {
+    //display: flex;
+    //flex-direction: column;
+    /* Tried without FLEX, shows the same but more cramped. Adjusted with padding 2px instead */
+    background-color: #1f2937;
+    color: white;
+    width: 550px;
+    margin: -100px auto;
+    padding: 20px 0px 20px 0px;
+}
+.darkmode {
+    /*changed from flex to just padding */
+    padding: 2px;
+}
+#length-conv, #volume-conv, #mass-conv {
+    font-size: 14px;
+    font-weight: 100;
+    color: #D2D2D2;
+}
